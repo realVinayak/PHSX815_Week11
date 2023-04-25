@@ -21,6 +21,7 @@ In this code, step refers to application of `assignment_loop(data_points, cluste
 The figures in `./outputs/` show the cluster points, and allocations. The red star and green star are the guess of the cluster points.
 The points are color-coded. If a point is red, it means it has been assigned to first cluster. Initially, all the points are 
 assigned to first cluster. </br>
+Step 0 is the initial state without any k-means step. </br>
 It can be seen that as the steps increase, the red and green star move towards `(1,1)` and `(5,5)` respectively - which were the
 true means. Additionally, the points closer to `(1,1)` are allocated red and points closer to `(5,5)` are allocated green, indicating
 that cluster allocations of points is largely accurate.
